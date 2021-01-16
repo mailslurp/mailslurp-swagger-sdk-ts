@@ -1,0 +1,17 @@
+{
+  "name": "mailslurp-swagger-sdk-ts",
+  "version": "11.2.0",
+  "description": "OpenAPI client for mailslurp-swagger-sdk-ts",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typedoc": "^0.20.14",
+    "typedoc-plugin-markdown": "^3.4.0",
+    "typescript": "^3.9.7"
+  }
+}
